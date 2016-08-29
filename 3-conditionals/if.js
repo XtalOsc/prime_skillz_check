@@ -4,10 +4,16 @@
 var first = 3;
 var second = 5;
 
+if (first === second) {
+  console.log("Hello");
+}
+
 // 2 - Expand your answer above to
 // console log "Goodbye" if
 // the variables are not equal
-
+else{
+  console.log("Goodbye");
+}
 // 3 - Write a statement that
 // assigns the value of the addition
 // of the first & second variables to a new
@@ -15,3 +21,7 @@ var second = 5;
 // than second. If second is greater than first
 // assign the difference of the first & second
 // variables to third.
+var third = first + second;
+if (second > first){
+  third = second/first;
+}
